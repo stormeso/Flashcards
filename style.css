@@ -1,6 +1,6 @@
 :root {
-    --text-color: #006ff6;
-    --card-front-color: #f43ed6;
+    --text-color: #006ff6ad;
+    --card-front-color: #f585e2;
     --card-back-color: #ffffff;
 }
 
@@ -29,7 +29,6 @@ font-family: Bai Jamjuree;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
-
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
@@ -67,7 +66,7 @@ font-family: Bai Jamjuree;
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -82,17 +81,6 @@ font-family: Bai Jamjuree;
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: black;
