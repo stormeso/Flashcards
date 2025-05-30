@@ -1,5 +1,11 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #dc00f4;
+}
+
 body {
-    background-color: rgb(91, 111, 199);
+background: url(oip.jpg);
     font-family: Bai Jamjuree;
 }
 
